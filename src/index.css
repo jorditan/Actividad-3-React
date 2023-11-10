@@ -1,0 +1,193 @@
+* {
+  box-sizing: border-box;
+  font-family: 'League Spartan', sans-serif;
+  line-height: 1.5;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+/*------------------------------------ HEADER- -----------------------------*/
+
+header {
+  display: flex;
+  height: 10vh;
+  background-color: #fafafa;
+}
+
+.navbar {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navBrand {
+  width: 30%;
+  display: flex;
+  justify-content: center;
+}
+
+.nav-list {
+  width: 70%;
+  display: flex;
+  list-style: none;
+  justify-content: space-evenly;
+}
+
+.nav-item {
+  list-style: none;
+  transition: .5s all ease-out;
+  cursor: pointer;
+}
+
+.nav-item:hover {
+  transform: scale(1.1);
+  color: #000;
+}
+
+.tituloNavbar {
+  font-size: 2rem;
+  text-decoration: none;
+  color: #303030;
+  font-weight: bold;
+}
+
+/*------------------------------------ MAIN -----------------------------*/
+
+
+.inicio {
+  padding: 2em;
+  background-color: #303030;
+  height: 100vh;
+}
+
+.producto {
+  height: 100%;
+}
+
+.contenedorTitulo {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 20%;
+}
+
+
+.titulo {
+  font-size: 3.5em;
+  transition:.5s all ease-out;
+  color: #fafafa;
+}
+
+.infoProducto {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+
+.contenedorImagen {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 20em;
+  width: 15em;
+}
+
+.contenedorImagen img {
+  box-shadow:  29px 29px 58px #242424,
+  -29px -29px 58px #3c3c3c;
+  border-radius: 5px;
+  height: 70%;
+  width: 100%;
+}
+
+.precio {
+  font-weight: bold;
+  font-size: 2em;
+  color: #fafafa;
+  height: 10%;
+}
+
+
+.enfasis {
+  color: #818181;
+}
+
+.data {
+  height: 20em;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+  width: 55%;
+  color: #fafafa;
+}
+
+.buttonCompra {
+  width: 8em;
+  border-radius: 10px;
+  border: 1px solid #fafafa;
+  background-color: transparent;
+  color: #fafafa;
+  padding: 4px;
+  transition: .5s all ease-out;
+}
+
+.buttonCompra:hover {
+  background-color: #fafafa;
+  color: #303030;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+footer {
+  display: flex;
+  background-color: #212121;
+  height: 40vh;
+  padding: 1.5em;
+}
+
+#redes,
+#brandFooter,
+#ubicacion {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  width: 33%;
+  align-items: baseline;
+}
+
+#brandFooter {
+  align-items: center;
+}
+
+.tituloFooter {
+  color: #fafafa;
+}
+
+.mapaFooter {
+  border: none;
+  border-radius: 5px;
+  width: 100%;
+  height: 60%;
+}
+
+.containerRedes,
+.containerUbicacion {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.containerUbicacion p {
+  color: #cbcbcb;
+}
+
+
+.redesList {
+  color: #cbcbcb;
+}
+
